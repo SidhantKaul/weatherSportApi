@@ -1,0 +1,65 @@
+body {
+  background-color: #7C83FD;
+}
+h1 {
+  display: inline-block;
+}
+input[type=text] {
+  margin-left: 30px;
+  margin-bottom: 80px;
+}
+.buttons {
+  height: 50px;
+}
+.btn {
+  vertical-align: bottom;
+  background: #96BAFF;
+  background-image: -webkit-linear-gradient(top, #96BAFF, #96BAFF);
+  background-image: -moz-linear-gradient(top, #96BAFF, #96BAFF);
+  background-image: -ms-linear-gradient(top, #96BAFF, #96BAFF);
+  background-image: -o-linear-gradient(top, #96BAFF, #96BAFF);
+  background-image: linear-gradient(to bottom, #96BAFF, #96BAFF);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.card {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  height:250px;
+}
+.left {
+  width:250px;
+  display: inline-block;
+}
+.right {
+  display: inline-block;
+  height: 100%;
+  width:250px;
+  vertical-align: bottom;
+  position: relative;
+}
+.weather-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100px;
+  width: 100px;
+}
+.game {
+  margin: auto;
+  display: flex;
+  flex-direction:column;
+  display: inline-block;
+  width: 33%;
+  text-align: centre;
+}
